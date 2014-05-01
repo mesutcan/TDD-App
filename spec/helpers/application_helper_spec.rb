@@ -8,7 +8,7 @@ describe ApplicationHelper do
     end
 
     it "should includes the base name" do
-      full_title("foo").should =~ /^bsvs Sample App/
+      full_title("foo").should =~ /^Sait Ilhaner Sample App/
     end
 
     it "should not include a bar for the home page" do
